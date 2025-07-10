@@ -79,3 +79,5 @@ Note: .vimrc use to set default by yourself for all vim files when you don't wan
 * in .vimrc *set ignorecase* is use to case-insensitive search
 * in .vimrc *set hls* is use to highlight search matches
 * in .vimrc *set number* is use to show line numbers
+
+Note: you can paste words from outside by enter insert mode and left click to paste it
