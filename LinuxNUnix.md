@@ -26,9 +26,9 @@ password is pwd.user36
 ⦁    use 0 to return ot the left
 
 **VIM note 08/07/2025**\
-Shell: part of unix that visible to users used to interprete command read commands and works with kernel to execute commands and shell allows a programmer to write/run shell script\
-Kernel: core component that manages the computer's resources and acts as the bridge between hardware and software. It's the first program loaded when a computer starts and handles essential tasks like memory management, process management and device control.\
-bash: is a command-line interpreter and scripting language widely used in Unix-like operating systems like Linux and macOS. It allows users to interact with the operating system by executing commands and writing scripts to automate tasks.
+_Shell_: part of unix that visible to users used to interprete command read commands and works with kernel to execute commands and shell allows a programmer to write/run shell script\
+_Kernel_: core component that manages the computer's resources and acts as the bridge between hardware and software. It's the first program loaded when a computer starts and handles essential tasks like memory management, process management and device control.\
+_bash_: is a command-line interpreter and scripting language widely used in Unix-like operating systems like Linux and macOS. It allows users to interact with the operating system by executing commands and writing scripts to automate tasks.
 
 ⦁    using command 'man man' to open manual in vim\
 ⦁    using command 'help' to open command menu\
