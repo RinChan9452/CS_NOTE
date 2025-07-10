@@ -13,7 +13,7 @@ password is pwd.user36
 
 
 **VIM note**
-* use *:+q* to save file (type w first and then file name)\
+* use *:+q* to save file (type w first and then file name)
 * use *shift + zz to* exit
 * use *q + !* to exit without save
 
