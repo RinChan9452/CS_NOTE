@@ -60,3 +60,22 @@ example: 2yy to copy the line your cursor stay and one line below
 * use *p* to paste the copy you can paste multiple line by *[number]p*\
 example: 3000p to paste that line three thousand times (all of this method do in normal mode)
 * use *o* to insert new line in normal mode 
+* use *Ctrl + v* to enter block mode
+* in block mode you can use highlight specific word to copy paste or delete (like cursor mouse but\ 
+instead of using mouse to highlight you use keyboard instead)
+* in block mode use *y* to copy the highlight
+* in block mode use *p* to paste the highlight
+* in block mode use *d* to delete the highlight
+* in block mode use *c* to replace the highlight
+* in block mode use *I* to insert before the highlight
+* in block mode use *A* to append after the highlight
+
+Note: .vimrc use to set default by yourself for all vim files when you don't want to use some setting that you set before you just add " in front of that setting like this "set expandtab or when you want to delete all you can do that by rm .vimrc it will delete the file
+
+* in .vimrc *set number* is use to show line numbers
+* in .vimrc *set tabstop=4* is use to tab width = 4 spaces
+* in .vimrc *set expandtab * is use tabs are spaces
+* in .vimrc *set autoindent* is use to auto indent new lines
+* in .vimrc *set ignorecase* is use to case-insensitive search
+* in .vimrc *set hls* is use to highlight search matches
+* in .vimrc *set number* is use to show line numbers
