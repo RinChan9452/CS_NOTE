@@ -45,6 +45,8 @@ Note: 'less' is the better version of 'more' command
 
 Note: when you accidentally get stuck in GNU Nano use Ctrl+x to exit
 
+* you can use *pwd* to check directory address
+* you can use *ls* to check what file is in directory
 * if you want to pull file from server use this:\
 scp username@server:/home/folder/filename D:\folderONlocal\
 Example: scp -P 23522 6710450830@sukreep.cs.sci.ku.ac.th:/home/6710450830/test.txt D:\VIM
