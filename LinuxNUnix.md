@@ -83,3 +83,26 @@ Note: .vimrc use to set default by yourself for all vim files when you don't wan
 * in .vimrc *set number* is use to show line numbers
 
 Note: you can paste words from outside by enter insert mode and left click to paste it
+
+**PIPES and SHELL commands/utilities note 15/07/2025**
+
+* you can use *cat [file name]* you can see content inside that file
+* you can sent out put of command in to other file by do this *[command] > [file name]*\
+example: date > currenTime.txt
+* to prevent the old file getting overwrite from new file you can use *set -o noclobber* it will\
+ cancel the command that will overwrite old file but if you want to bypass it you can use *[command] >| [file name]*\
+  this will make you bypass noclobber and when you want to cancel noclobber use this *set +o noclobber*
+
+Note: Redirecting Error use to hide store adjust log for error
+
+* redirect only error using *ls -l file1 noFile 2>error.txt* this will redirect error message to error.txt
+* redirect to different files using *ls -l file1 noFile 1>out.txt 2>error.txt* this will redirect output to out.txt and error to error.txt
+* redirect to just one file using *ls -l file1 noFile 1>out.txt 2>&1* this will redirect output and error to the same file
+* you can use *wc* to count line word byte in file *wc <file.txt*
+
+Note: PIPES is like a chain commands that will start to execute first output from first command then use that output to do next command and then
+use second output to do\
+ next command think like first output is turn into stdin for second input\
+ example: command1 | command2 | command3
+
+ *who the fuck is bathing*
