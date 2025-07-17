@@ -102,7 +102,38 @@ Note: Redirecting Error use to hide store adjust log for error
 
 Note: PIPES is like a chain commands that will start to execute first output from first command then use that output to do next command and then
 use second output to do\
- next command think like first output is turn into stdin for second input\
- example: command1 | command2 | command3
+next command think like first output is turn into stdin for second input\
+example: command1 | command2 | command3
 
- *who the fuck is bathing*
+*who the fuck is bathing*
+
+**PIPES & SHELL commands/utilities note 17/07/2025**
+
+*JOB CONTROL*
+* *Jobs* running user task and run command or set of cmds entered on one command line
+
+*Foreground Jobs*
+* job that run by controller on user no other job can start while Foreground Jobs is running
+* you can cancel the job by *ctrl + c*
+* you can pause the job by *ctrl + z*
+* to resume use *fg* or put into Background Job *bg*
+
+*Background Job*
+* is a job that run without display
+* is a job that run while other job is running use when there is a job that have to run for a long time 
+* usually do the job that doesn't require input
+
+*Job Cycle*
+* start as a background job *bg %1*
+* start as a foreground job *fg %1*
+* terminating a background job *kill %1*
+
+**UNIX File System & Permissions note 17/07/2025**
+
+*Filenames*
+* start with alphabet and use (_ , . , -) to separate part of the name
+* don't need file surname when create file you put file surname just to make human understand
+* don't start with . in front of file name or file will be hidden and won't show up when you use ls
+* don't use slash in filename
+
+Note: tty is using to locate the filename that terminal is connect to 
