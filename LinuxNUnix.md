@@ -137,3 +137,9 @@ example: command1 | command2 | command3
 * don't use slash in filename
 
 Note: tty is using to locate the filename that terminal is connect to 
+
+**Unix N Linux note 21/07/2025**
+* *touch* is use to change timestamp of file to update and access time in file to modifier the time to current
+* *cal* and *ncal* is use to show the calendar *ncal* will have a highlight on current date
+
+Fun Fact: *echo* can do more than you think
