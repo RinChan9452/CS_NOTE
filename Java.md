@@ -24,3 +24,8 @@
 
 *Static Method*
 * main is a static method
+
+**Java Note 20/07/2025**
+
+* *final* is a non-access modifier that make variable can't change it data inside or make the method\
+can't be override
