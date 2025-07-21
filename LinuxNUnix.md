@@ -87,7 +87,7 @@ Note: you can paste words from outside by enter insert mode and left click to pa
 **PIPES and SHELL commands/utilities note 15/07/2025**
 
 * you can use *cat [file name]* you can see content inside that file
-* you can sent out put of command in to other file by do this *[command] > [file name]*\
+* you can sent output of command in to other file by do this *[command] > [file name]*\
 example: date > currenTime.txt
 * to prevent the old file getting overwrite from new file you can use *set -o noclobber* it will\
  cancel the command that will overwrite old file but if you want to bypass it you can use *[command] >| [file name]*\
@@ -142,4 +142,8 @@ Note: tty is using to locate the filename that terminal is connect to
 * *touch* is use to change timestamp of file to update and access time in file to modifier the time to current
 * *cal* and *ncal* is use to show the calendar *ncal* will have a highlight on current date
 
-Fun Fact: *echo* can do more than you think
+Fun Fact: *echo* can do more than you think it can adapt to use with many other command that need to be output so when\
+you think of something like output from many command in one line think about *echo* first
+
+* *rm* is use to delete file *rm [filename]*
+* *uname* use to output system information 
