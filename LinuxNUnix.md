@@ -147,3 +147,37 @@ you think of something like output from many command in one line think about *ec
 
 * *rm* is use to delete file *rm [filename]*
 * *uname* use to output system information 
+
+**Unix Filesystems note 24/07/2025**
+
+* Unix filesystems is like a tree root of directories that each root has their own root of directories that chained together in each root can store specific file or folder that relate to it name
+
+/
+├── bin/\
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ls\
+├── home/\
+│    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── user/\
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── file.txt\
+│       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── documents/\
+│           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── report.doc\
+└── etc/\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── password
+
+* *inode* is like id for a file that system use it to locate actual data blocks on disk (system will start to look at inode when you enter that directory)
+
+* drwx------\
+  | &nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | \
+  | &nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; |-- *---* mean other permission if it get three dats like this it mean you have no permission\
+  | &nbsp; | &nbsp;&nbsp;&nbsp; |---- *---* mean group permission if it get three dats like this it mean you have no permission\
+  | &nbsp; |\
+  | &nbsp; |----*rwx* mean owner's permissions   read, write, execute\
+  |\
+  |-------*d* mean directory
+
+  &nbsp; ^\
+  &nbsp;&nbsp;  |\
+  Note: first dat is file type indicators next three dats are permission of owner next three dats are permission of group last three dats are permission of other
+
+  * *owner* is the user who own the file (or creator)
+  * *group* users who associate or part of the group assigned to the file
+  * *others* everyone else on the system who is not the owner or in the group
