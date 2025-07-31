@@ -181,3 +181,10 @@ you think of something like output from many command in one line think about *ec
   * *owner* is the user who own the file (or creator)
   * *group* users who associate or part of the group assigned to the file
   * *others* everyone else on the system who is not the owner or in the group
+
+  **Note Advance bash commands 31/07/2025**
+
+  * *uniq* use to sort or filter duplicate lines in file *uniq [option] [file] [outfile]
+  * *vim -d* use to check different between file can use to check different between old and new version of file or program
+  * *dif* can use to check different between file too
+  * *tar* use to pack file like zip file
