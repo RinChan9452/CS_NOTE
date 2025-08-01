@@ -181,3 +181,8 @@ you think of something like output from many command in one line think about *ec
   * *owner* is the user who own the file (or creator)
   * *group* users who associate or part of the group assigned to the file
   * *others* everyone else on the system who is not the owner or in the group
+
+  **Note bash 30/07/2025**
+
+  * *set -o vi* is use to set your bash to work like vim
+  * 
