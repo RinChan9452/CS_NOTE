@@ -182,7 +182,16 @@ you think of something like output from many command in one line think about *ec
   * *group* users who associate or part of the group assigned to the file
   * *others* everyone else on the system who is not the owner or in the group
 
+<<<<<<< HEAD
   **Note bash 30/07/2025**
 
   * *set -o vi* is use to set your bash to work like vim
   * 
+=======
+  **Note Advance bash commands 31/07/2025**
+
+  * *uniq* use to sort or filter duplicate lines in file *uniq [option] [file] [outfile]
+  * *vim -d* use to check different between file can use to check different between old and new version of file or program
+  * *dif* can use to check different between file too
+  * *tar* use to pack file like zip file
+>>>>>>> fa8c0e6849b8bf6548a446dd845e10e3827c6fc3
